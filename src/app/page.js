@@ -99,7 +99,7 @@ export default function Home() {
             </div>
 
             <div className="qcard hover-lift">
-              <h4 className="service-title">Thesis & Dissertation Support</h4>
+              <h4 className="service-title">Thesis Support</h4>
               <p className="service-desc">
                 Professional guidance in structuring and writing comprehensive theses for postgraduate and doctoral programs.
               </p>
