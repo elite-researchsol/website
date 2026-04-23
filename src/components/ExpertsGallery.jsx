@@ -11,10 +11,14 @@ const expertsData = [
     title: "Co-Founder & Strategic Operations Lead",
     subtitle: "MBA (Finance) | PGDHR (MIT Pune) | DCFM (C-DIT)",
     bio: [
-      "A results-driven professional with over 7 years of specialized experience in the field of journal publications, bringing a strong blend of strategic leadership, financial expertise, and people-centric management. With a deep understanding of publication lifecycles and academic ecosystems, he plays a key role in shaping organizational growth and operational excellence.",
-      "Holding a Post Graduate Diploma in Human Resources, along with an MBA in Finance and a Diploma in Computer Financial Management, he combines strong financial acumen with modern digital capabilities. This multidisciplinary foundation enables a balanced approach to decision-making—integrating fiscal discipline with scalable human resource strategies.",
-      "With a solid academic background in business administration and hands-on industry experience, he focuses on building efficient systems, optimizing workflows, and fostering high-performance teams. His approach emphasizes aligning people, processes, and profitability to create sustainable and growth-oriented business models.",
-      "Driven by innovation and precision, he is committed to transforming strategic vision into measurable outcomes, ensuring the organization consistently delivers excellence and remains future-ready in a competitive landscape."
+      "Executive Leadership & Strategic Growth: With a career defined by 7 years of high-impact leadership in the Journal Publication industry—culminating in his role as General Manager— He bring an executive veteran’s perspective to the helm of the organization. As a Co-Founder, he bridges the gap between complex financial architecture and world-class human capital management.",
+      "A Multidisciplinary Foundation: His leadership is backed by an elite academic and technical pedigree designed for operational excellence.",
+      "Strategic HR Leadership: Post Graduate Diploma in Human Resources from MIT Pune, focused on building scalable, high-performance organizational cultures.",
+      "Financial & Technical Mastery: MBA in Finance (Alagappa University) and a DCFM from C-DIT, blending fiscal precision with modern digital financial management.",
+      "General Management Expertise: 7 years of deep-rooted experience navigating the entire Journal Publication lifecycle, specializing in operational efficiency and large-scale team leadership.",
+      "Driving the Vision:",
+      "He believes that a successful start-up requires the same discipline he applied as a General Manager: a dual focus on fiscal integrity and empowered talent. By integrating his foundation with years of executive-level decision-making, he ensures the business remains lean, data-driven, and positioned for rapid growth.",
+      "He is dedicated to transforming visionary ideas into operational realities, ensuring the company sets new global benchmarks for professional excellence."
     ]
   },
   {
