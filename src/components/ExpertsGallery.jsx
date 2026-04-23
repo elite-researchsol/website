@@ -6,20 +6,6 @@ import "./ExpertsGallery.css";
 const expertsData = [
   {
     id: 1,
-    name: "Dr. Jerin Johnkutty",
-    initials: "JJ",
-    imageUrl: "/jerin.jpg",
-    title: "Mechanical Engineer",
-    subtitle: "Co-founder & Director - Operations",
-    bio: [
-      "Jerin Johnkutty is an experienced engineering professional and academic with over 15 years of combined experience in industry and education. He currently serves as the Assistant Professor and Head of Department (In-Charge) of Mechanical Engineering at Thejus Engineering College in Thrissur, Kerala.",
-      "A dedicated researcher, Jerin holds a B.Tech and M.Tech in Engineering and is currently pursuing his Ph.D. His technical expertise spans Industrial Safety, Green Engineering, and Mechatronics, with a specific focus on applying Machine Learning to improve workplace safety standards.",
-      "He has published research in reputable journals such as the Journal of the Knowledge Economy and has presented on topics ranging from quality control to behavior-based safety interventions.",
-      "Jerin is an active member of professional bodies including the Indian Society for Technical Education (ISTE) and the Institution of Engineers (India) (IEI). He is committed to bridging the gap between theoretical engineering principles and practical industrial applications."
-    ]
-  },
-  {
-    id: 2,
     name: "KS Adhith Aydin",
     initials: "KA",
     title: "Co-Founder & Strategic Operations Lead",
@@ -32,6 +18,20 @@ const expertsData = [
       "Industry Tenure: 7 years of deep-rooted expertise in Journal Publication lifecycles, navigating the evolution of professional and academic media.",
       "Driving the Vision: I believe a successful startup is built on two pillars: fiscal integrity and empowered talent. By integrating my background in BBA (Baldwin International College) with years of hands-on operational leadership, I ensure our business remains lean, data-driven, and relentlessly focused on growth.",
       "I am dedicated to transforming visionary ideas into operational realities, ensuring our company sets new benchmarks for excellence in the industry."
+    ]
+  },
+  {
+    id: 2,
+    name: "Dr. Jerin Johnkutty",
+    initials: "JJ",
+    imageUrl: "/jerin.jpg",
+    title: "Mechanical Engineer",
+    subtitle: "Co- founder & Technical analyst",
+    bio: [
+      "Jerin Johnkutty is an experienced engineering professional and academic with over 15 years of combined experience in industry and education. He currently serves as the Assistant Professor and Head of Department (In-Charge) of Mechanical Engineering at Thejus Engineering College in Thrissur, Kerala.",
+      "A dedicated researcher, Jerin holds a B.Tech and M.Tech in Engineering and is currently pursuing his Ph.D. His technical expertise spans Industrial Safety, Green Engineering, and Mechatronics, with a specific focus on applying Machine Learning to improve workplace safety standards.",
+      "He has published research in reputable journals such as the Journal of the Knowledge Economy and has presented on topics ranging from quality control to behavior-based safety interventions.",
+      "Jerin is an active member of professional bodies including the Indian Society for Technical Education (ISTE) and the Institution of Engineers (India) (IEI). He is committed to bridging the gap between theoretical engineering principles and practical industrial applications."
     ]
   }
 ];
