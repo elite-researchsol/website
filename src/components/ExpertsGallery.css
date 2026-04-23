@@ -1,0 +1,118 @@
+.experts-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .experts-gallery {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.experts-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 0 0 300px;
+}
+
+.expert-tab {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(8px);
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.25s ease;
+  transform: translateX(0);
+}
+
+.expert-tab:hover {
+  transform: translateX(5px);
+  border-color: var(--elite-saffron);
+}
+
+.expert-tab.active-tab {
+  background: var(--qcard-bg);
+  border-color: var(--elite-saffron);
+  box-shadow: var(--qcard-shadow-1);
+}
+
+.expert-tab-avatar {
+  background-color: var(--elite-navy);
+  color: white;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.active-tab .expert-tab-avatar {
+  background-color: var(--elite-saffron);
+}
+
+.expert-tab-info h4 {
+  font-size: 1.05rem;
+  color: var(--elite-navy);
+  margin-bottom: 0.25rem;
+}
+
+.expert-tab-info p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.expert-detail-panel {
+  flex: 1;
+  padding: 2.5rem;
+}
+
+.expert-avatar-large {
+  width: 90px;
+  height: 90px;
+  background-color: var(--elite-saffron);
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.expert-bio-content {
+  line-height: 1.8;
+  opacity: 0.9;
+  margin-top: 1.5rem;
+}
+
+.fade-in-key {
+  animation: blurIn 0.4s ease-out;
+}
+
+@keyframes blurIn {
+  from {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}

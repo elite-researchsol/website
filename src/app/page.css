@@ -1,0 +1,167 @@
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-center { text-align: center; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.max-w-3xl { max-width: 48rem; }
+.max-w-4xl { max-width: 56rem; }
+.mb-4 { margin-bottom: 2rem; }
+.mb-5 { margin-bottom: 3rem; }
+.mt-6 { margin-top: 4rem; }
+.pb-3 { padding-bottom: 1.5rem; }
+.pt-5 { padding-top: 3rem; }
+.opacity-90 { opacity: 0.9; }
+
+/* Sections */
+.section {
+  padding: 5rem 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--elite-navy);
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 60px;
+  height: 4px;
+  background-color: var(--elite-saffron);
+  border-radius: 2px;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.hero-glass {
+  padding: 4rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  color: var(--elite-navy);
+}
+
+.accent-text {
+  color: var(--elite-saffron);
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  opacity: 0.85;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero-glass { padding: 2rem; }
+  .hero-title { font-size: 2.5rem; }
+  .hero-subtitle { font-size: 1.1rem; }
+}
+
+/* Background Utility Colors */
+.bg-vanilla {
+  background: transparent; /* Uses the body's body background */
+}
+
+/* Mission Vision Grid */
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .mission-vision-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.icon-wrapper {
+  margin: 0 auto 1.5rem;
+  background: rgba(245, 145, 32, 0.1);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  color: var(--elite-navy);
+  margin-bottom: 1.5rem;
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.service-title {
+  font-size: 1.25rem;
+  color: var(--elite-navy);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.service-desc {
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+/* Emphasized QCard for final note */
+.cta-note {
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 500;
+  border-top-width: 0 !important;
+  border-left: 4px solid var(--elite-gold) !important;
+  background: var(--glass-bg);
+}
+
+/* Hover Lift Effect */
+.hover-lift {
+  cursor: default;
+}
+
+.hover-lift:hover {
+  border-top-color: var(--elite-gold);
+}
