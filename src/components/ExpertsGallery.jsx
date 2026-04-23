@@ -24,7 +24,6 @@ const expertsData = [
     id: 2,
     name: "Dr. Jerin Johnkutty",
     initials: "JJ",
-    imageUrl: "/jerin.jpg",
     title: "Mechanical Engineer",
     subtitle: "Co- founder & Technical analyst",
     bio: [
@@ -32,6 +31,19 @@ const expertsData = [
       "A dedicated researcher, Jerin holds a B.Tech and M.Tech in Engineering and is currently pursuing his Ph.D. His technical expertise spans Industrial Safety, Green Engineering, and Mechatronics, with a specific focus on applying Machine Learning to improve workplace safety standards.",
       "He has published research in reputable journals such as the Journal of the Knowledge Economy and has presented on topics ranging from quality control to behavior-based safety interventions.",
       "Jerin is an active member of professional bodies including the Indian Society for Technical Education (ISTE) and the Institution of Engineers (India) (IEI). He is committed to bridging the gap between theoretical engineering principles and practical industrial applications."
+    ]
+  },
+  {
+    id: 3,
+    name: "Er. Jakesh P. Kuriakose",
+    initials: "JK",
+    title: "IT Specialist",
+    subtitle: "M.Tech - AI, B.Tech - EEE",
+    bio: [
+      "Jakesh P. Kuriakose is a forward-thinking IT Specialist with a unique blend of engineering expertise and advanced knowledge in Artificial Intelligence. Holding an M.Tech in AI and a B.Tech in Electrical & Electronics Engineering, he brings a multidisciplinary approach to solving complex technological challenges.",
+      "With extensive international experience across the Middle East and India, Jakesh has built a strong foundation in system design, digital construction technologies, and data-driven innovation. His expertise spans Artificial Intelligence, BIM (Building Information Modeling), and modern software tools, enabling him to transform traditional engineering workflows into intelligent, efficient digital solutions.",
+      "He is particularly known for his ability to bridge the gap between engineering and IT—integrating AI-powered insights with practical applications. As a skilled trainer and mentor, he has guided professionals and students in adopting cutting-edge technologies, fostering industry-ready skills and future-focused thinking.",
+      "Driven by precision, innovation, and continuous learning, Jakesh plays a key role in delivering smart, scalable, and technology-driven solutions in today’s rapidly evolving digital landscape."
     ]
   }
 ];
