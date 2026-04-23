@@ -9,7 +9,7 @@ export default function Header() {
         <div className="logo-container">
           <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <Image
-              src="/logo.png"
+              src="/Logo.jpg"
               alt="Elite Research Solutions Logo"
               width={160}
               height={160}
