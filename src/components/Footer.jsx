@@ -18,6 +18,9 @@ export default function Footer() {
             <h4 className="footer-subtitle">Contact Us</h4>
             <ul className="contact-list">
               <li>
+                <strong>Address:</strong> 1st Floor, Vipins Complex, Calicut Road, Parempadam, Kunnamkulam, Thrissur, 680503
+              </li>
+              <li>
                 <strong>Email:</strong> <a href="mailto:elite@eliteresearch.info">elite@eliteresearch.info</a>
               </li>
               <li>
