@@ -8,6 +8,7 @@ const expertsData = [
     id: 1,
     name: "Dr. Jerin Johnkutty",
     initials: "JJ",
+    imageUrl: "/jerin.jpg",
     title: "Mechanical Engineer",
     subtitle: "Co-founder & Director - Operations",
     bio: [
@@ -41,7 +42,11 @@ export default function ExpertsGallery() {
             className={`expert-tab ${activeExpert.id === expert.id ? "active-tab" : ""}`}
             onClick={() => setActiveExpert(expert)}
           >
-            <div className="expert-tab-avatar">{expert.initials}</div>
+            <div className="expert-tab-avatar" style={{ overflow: 'hidden' }}>
+              {expert.imageUrl ? (
+                <img src={expert.imageUrl} alt={expert.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              ) : expert.initials}
+            </div>
             <div className="expert-tab-info">
               <h4>{expert.name}</h4>
               <p>{expert.title}</p>
@@ -54,8 +59,10 @@ export default function ExpertsGallery() {
       {/* Main Detail Panel */}
       <div className="qcard glass-panel expert-detail-panel">
         <div className="expert-header text-center">
-          <div className="expert-avatar-large">
-            {activeExpert.initials}
+          <div className="expert-avatar-large" style={{ overflow: 'hidden' }}>
+            {activeExpert.imageUrl ? (
+              <img src={activeExpert.imageUrl} alt={activeExpert.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            ) : activeExpert.initials}
           </div>
           <h3 className="card-title" style={{ marginBottom: "0.25rem" }}>{activeExpert.name}</h3>
           <p style={{ color: "var(--elite-saffron)", fontWeight: "600", fontSize: "1.1rem" }}>
