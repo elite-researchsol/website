@@ -11,13 +11,10 @@ const expertsData = [
     title: "Co-Founder & Strategic Operations Lead",
     subtitle: "MBA (Finance) | PGDHR (MIT Pune) | DCFM (C-DIT)",
     bio: [
-      "The Intersection of Strategy, People, and Profit: With a career spanning 7 years of specialized experience in the high-precision world of Journal Publications, I bring an industry veteran’s perspective to the leadership of our organization. As a Co-Founder, my mission is to bridge the gap between complex financial architecture and high-performance human capital management.",
-      "A Multidisciplinary Foundation: My leadership is rooted in a rigorous academic and technical pedigree designed for operational excellence:",
-      "Strategic HR Leadership: Post Graduate Diploma in Human Resources from MIT Pune, focused on building scalable, people-centric organizational cultures.",
-      "Financial & Technical Mastery: MBA in Finance (Alagappa University) complemented by a Diploma in Computer Finance Management (DCFM) from C-DIT, blending fiscal discipline with modern digital tools.",
-      "Industry Tenure: 7 years of deep-rooted expertise in Journal Publication lifecycles, navigating the evolution of professional and academic media.",
-      "Driving the Vision: I believe a successful startup is built on two pillars: fiscal integrity and empowered talent. By integrating my background in BBA (Baldwin International College) with years of hands-on operational leadership, I ensure our business remains lean, data-driven, and relentlessly focused on growth.",
-      "I am dedicated to transforming visionary ideas into operational realities, ensuring our company sets new benchmarks for excellence in the industry."
+      "A results-driven professional with over 7 years of specialized experience in the field of journal publications, bringing a strong blend of strategic leadership, financial expertise, and people-centric management. With a deep understanding of publication lifecycles and academic ecosystems, he plays a key role in shaping organizational growth and operational excellence.",
+      "Holding a Post Graduate Diploma in Human Resources, along with an MBA in Finance and a Diploma in Computer Financial Management, he combines strong financial acumen with modern digital capabilities. This multidisciplinary foundation enables a balanced approach to decision-making—integrating fiscal discipline with scalable human resource strategies.",
+      "With a solid academic background in business administration and hands-on industry experience, he focuses on building efficient systems, optimizing workflows, and fostering high-performance teams. His approach emphasizes aligning people, processes, and profitability to create sustainable and growth-oriented business models.",
+      "Driven by innovation and precision, he is committed to transforming strategic vision into measurable outcomes, ensuring the organization consistently delivers excellence and remains future-ready in a competitive landscape."
     ]
   },
   {
