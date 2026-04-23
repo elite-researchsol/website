@@ -28,7 +28,7 @@ const expertsData = [
     title: "Mechanical Engineer",
     subtitle: "Co- founder & Technical analyst",
     bio: [
-      "Jerin Johnkutty is an experienced engineering professional and academic with over 15 years of combined experience in industry and education. He currently serves as the Assistant Professor and Head of Department (In-Charge) of Mechanical Engineering at Thejus Engineering College in Thrissur, Kerala.",
+      "Jerin Johnkutty is an experienced engineering professional and academic with over 15 years of combined experience in industry and education.",
       "A dedicated researcher, Jerin holds a B.Tech and M.Tech in Engineering and is currently pursuing his Ph.D. His technical expertise spans Industrial Safety, Green Engineering, and Mechatronics, with a specific focus on applying Machine Learning to improve workplace safety standards.",
       "He has published research in reputable journals such as the Journal of the Knowledge Economy and has presented on topics ranging from quality control to behavior-based safety interventions.",
       "Jerin is an active member of professional bodies including the Indian Society for Technical Education (ISTE) and the Institution of Engineers (India) (IEI). He is committed to bridging the gap between theoretical engineering principles and practical industrial applications."
