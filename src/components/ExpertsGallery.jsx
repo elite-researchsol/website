@@ -20,11 +20,18 @@ const expertsData = [
   },
   {
     id: 2,
-    name: "Add Expert Here",
-    initials: "EX",
-    title: "Academic Consultant",
+    name: "KS Adhith Aydin",
+    initials: "KA",
+    title: "Co-Founder & Strategic Operations Lead",
+    subtitle: "MBA (Finance) | PGDHR (MIT Pune) | DCFM (C-DIT)",
     bio: [
-      "Additional expert details can be added here. Elite Research Solutions collaborates with leading academicians to provide you with world-class support."
+      "The Intersection of Strategy, People, and Profit: With a career spanning 7 years of specialized experience in the high-precision world of Journal Publications, I bring an industry veteran’s perspective to the leadership of our organization. As a Co-Founder, my mission is to bridge the gap between complex financial architecture and high-performance human capital management.",
+      "A Multidisciplinary Foundation: My leadership is rooted in a rigorous academic and technical pedigree designed for operational excellence:",
+      "Strategic HR Leadership: Post Graduate Diploma in Human Resources from MIT Pune, focused on building scalable, people-centric organizational cultures.",
+      "Financial & Technical Mastery: MBA in Finance (Alagappa University) complemented by a Diploma in Computer Finance Management (DCFM) from C-DIT, blending fiscal discipline with modern digital tools.",
+      "Industry Tenure: 7 years of deep-rooted expertise in Journal Publication lifecycles, navigating the evolution of professional and academic media.",
+      "Driving the Vision: I believe a successful startup is built on two pillars: fiscal integrity and empowered talent. By integrating my background in BBA (Baldwin International College) with years of hands-on operational leadership, I ensure our business remains lean, data-driven, and relentlessly focused on growth.",
+      "I am dedicated to transforming visionary ideas into operational realities, ensuring our company sets new benchmarks for excellence in the industry."
     ]
   }
 ];
