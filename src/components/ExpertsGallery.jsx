@@ -21,13 +21,13 @@ const expertsData = [
     id: 2,
     name: "Dr. Jerin Johnkutty",
     initials: "JJ",
-    title: "Mechanical Engineer",
+    title: "Research Associate",
     subtitle: "Co- founder & Technical analyst",
     bio: [
-      "Jerin Johnkutty is an experienced engineering professional and academic with over 15 years of combined experience in industry and education.",
-      "A dedicated researcher, Jerin holds a B.Tech and M.Tech in Engineering and is currently pursuing his Ph.D. His technical expertise spans Industrial Safety, Green Engineering, and Mechatronics, with a specific focus on applying Machine Learning to improve workplace safety standards.",
-      "He has published research in reputable journals such as the Journal of the Knowledge Economy and has presented on topics ranging from quality control to behavior-based safety interventions.",
-      "Jerin is an active member of professional bodies including the Indian Society for Technical Education (ISTE) and the Institution of Engineers (India) (IEI). He is committed to bridging the gap between theoretical engineering principles and practical industrial applications."
+      "Dr. Jerin Johnkutty is a seasoned engineering professional and academic with over 15 years of combined experience across industry and higher education. With a strong commitment to research and innovation, he brings a balanced perspective that integrates practical engineering applications with advanced academic insights.",
+      "He holds a B.Tech, M.Tech, and a Ph.D. in Engineering, with core expertise in Industrial Safety, Green Engineering, and Mechatronics. His work is particularly focused on leveraging Machine Learning techniques to enhance workplace safety, optimize systems, and drive sustainable engineering practices.",
+      "Dr. Jerin has an established research profile with more than seven publications indexed in leading platforms such as Scopus, Springer, and Web of Science. His contributions span critical areas including quality control, safety engineering, and behavior-based safety interventions, reflecting a deep engagement with contemporary engineering challenges.",
+      "An active member of professional bodies such as the Indian Society for Technical Education (ISTE) and the Institution of Engineers (India) (IEI), he is dedicated to bridging the gap between theoretical knowledge and real-world implementation. His approach emphasizes innovation, applied research, and the development of future-ready engineering solutions."
     ]
   },
   {
