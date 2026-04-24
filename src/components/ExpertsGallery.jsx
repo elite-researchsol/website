@@ -8,16 +8,16 @@ const expertsData = [
     id: 1,
     name: "KS Adhith Aydin",
     initials: "KA",
-    title: "Co-Founder & Strategic Operations Lead",
+    title: "Co-Founder & Director-operations",
     subtitle: "MBA (Finance) | PGDHR (MIT Pune) | DCFM (C-DIT)",
     bio: [
-      "Executive Leadership & Strategic Growth: With a career defined by 7 years of high-impact leadership in the Journal Publication industry—culminating in his role as General Manager— He bring an executive veteran’s perspective to the helm of the organization. As a Co-Founder, he bridges the gap between complex financial architecture and world-class human capital management.",
+      "Executive Leadership & Strategic Growth: With a career defined by 7 years of high-impact leadership in the Journal Publication industry—culminating in his role as General Manager—He brings an executive veteran’s perspective to the helm of the organization. As a Co-Founder, he bridges the gap between complex financial architecture and world-class human capital management.",
       "A Multidisciplinary Foundation: His leadership is backed by an elite academic and technical pedigree designed for operational excellence.",
       "Strategic HR Leadership: Post Graduate Diploma in Human Resources from MIT Pune, focused on building scalable, high-performance organizational cultures.",
       "Financial & Technical Mastery: MBA in Finance (Alagappa University) and a DCFM from C-DIT, blending fiscal precision with modern digital financial management.",
       "General Management Expertise: 7 years of deep-rooted experience navigating the entire Journal Publication lifecycle, specializing in operational efficiency and large-scale team leadership.",
-      "Driving the Vision:",
-      "He believes that a successful start-up requires the same discipline he applied as a General Manager: a dual focus on fiscal integrity and empowered talent. By integrating his foundation with years of executive-level decision-making, he ensures the business remains lean, data-driven, and positioned for rapid growth.",
+      "Driving the Vision: He believes that a successful startup requires the same discipline he applied as a General Manager: a dual focus on fiscal integrity and empowered talent.",
+      "By integrating his foundation with years of executive-level decision-making, he ensures the business remains lean, data-driven, and positioned for rapid growth.",
       "He is dedicated to transforming visionary ideas into operational realities, ensuring the company sets new global benchmarks for professional excellence."
     ]
   },
