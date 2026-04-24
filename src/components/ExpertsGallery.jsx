@@ -8,7 +8,7 @@ const expertsData = [
     id: 1,
     name: "KS Adhith Aydin",
     initials: "KA",
-    title: "Co-Founder & Director-operations",
+    title: "Co-Founder & Director-Operations",
     subtitle: "MBA (Finance) | PGDHR (MIT Pune) | DCFM (C-DIT)",
     bio: [
       "Executive Leadership & Strategic Growth: With a career defined by 7 years of high-impact leadership in the Journal Publication industry—culminating in his role as General Manager—He brings an executive veteran’s perspective to the helm of the organization. As a Co-Founder, he bridges the gap between complex financial architecture and world-class human capital management.",
