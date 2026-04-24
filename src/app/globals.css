@@ -17,13 +17,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0f172a;        /* Sleek dark tone */
-    --foreground: #fdfbf7;        /* Beige tone for readable text */
-    --glass-bg: rgba(15, 23, 42, 0.5);
-    --glass-border: rgba(255, 255, 255, 0.1);
-    --glass-shadow: rgba(0, 0, 0, 0.25);
+    --background: #fdfbf7;        /* Keep background beige even in dark mode */
+    --foreground: #1c2b4a;        /* Deep navy text for contrast on beige */
+    --glass-bg: rgba(255, 255, 255, 0.4);
+    --glass-border: rgba(255, 255, 255, 0.6);
+    --glass-shadow: rgba(31, 38, 135, 0.05);
     
-    --qcard-bg: #1e293b;
+    --qcard-bg: #ffffff;
   }
 }
 
