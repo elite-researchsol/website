@@ -7,7 +7,7 @@ const expertsData = [
   {
     id: 1,
     name: "Raghav Prasad",
-    initials: "KA",
+    initials: "RP",
     title: "Co-Founder & Director-Operations",
     subtitle: "MBA (Finance) | PGDHR (MIT Pune) | DCFM (C-DIT)",
     bio: [
