@@ -6,7 +6,7 @@ import "./ExpertsGallery.css";
 const expertsData = [
   {
     id: 1,
-    name: "KS Adhith Aydin",
+    name: "Raghav Prasad",
     initials: "KA",
     title: "Co-Founder & Director-Operations",
     subtitle: "MBA (Finance) | PGDHR (MIT Pune) | DCFM (C-DIT)",
