@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import PromoPopup from "@/components/PromoPopup";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <WhatsAppButton />
+        <PromoPopup />
         <Footer />
       </body>
     </html>

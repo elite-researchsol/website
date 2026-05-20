@@ -1,0 +1,122 @@
+/* ── Promo Popup ─────────────────────────────────────────────── */
+.promo-popup {
+  position: fixed;
+  bottom: 100px;          /* sits above the WhatsApp FAB */
+  right: -320px;          /* hidden off-screen initially */
+  z-index: 1200;
+  width: 280px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow:
+    0 8px 32px rgba(14, 26, 57, 0.35),
+    0 2px 8px rgba(14, 26, 57, 0.18);
+  transition: right 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.promo-popup--visible {
+  right: 20px;
+}
+
+/* ── Close button ────────────────────────────────────────── */
+.promo-popup__close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0e1a39;
+  font-size: 1.25rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.promo-popup__close:hover {
+  transform: scale(1.15) rotate(90deg);
+  background: #fff;
+}
+
+/* ── Image / link ────────────────────────────────────────── */
+.promo-popup__link {
+  display: block;
+  line-height: 0;
+}
+
+.promo-popup__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.promo-popup__image:hover {
+  transform: scale(1.03);
+}
+
+/* ── Reopen tab ──────────────────────────────────────────── */
+.promo-tab {
+  position: fixed;
+  bottom: 160px;
+  right: -60px;           /* hidden off-screen */
+  z-index: 1199;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  transition: right 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.promo-tab--visible {
+  right: 0;
+}
+
+.promo-tab--hidden {
+  right: -60px;
+  pointer-events: none;
+}
+
+.promo-tab__text {
+  display: block;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  background: linear-gradient(180deg, #c8952a 0%, #0e1a39 100%);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 14px 9px;
+  border-radius: 8px 0 0 8px;
+  box-shadow: -3px 3px 12px rgba(14, 26, 57, 0.35);
+  transition: padding 0.2s ease, box-shadow 0.2s ease;
+}
+
+.promo-tab:hover .promo-tab__text {
+  padding: 14px 12px;
+  box-shadow: -5px 4px 18px rgba(14, 26, 57, 0.45);
+}
+
+/* ── Mobile tweak ────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .promo-popup {
+    width: 230px;
+    bottom: 80px;
+  }
+
+  .promo-tab {
+    bottom: 130px;
+  }
+}
