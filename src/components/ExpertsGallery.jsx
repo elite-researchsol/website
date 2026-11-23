@@ -13,7 +13,6 @@ const expertsData = [
     bio: [
       "Executive Leadership & Strategic Growth: With a career defined by 7 years of high-impact leadership in the Journal Publication industry—culminating in his role as General Manager—He brings an executive veteran’s perspective to the helm of the organization. As a Co-Founder, he bridges the gap between complex financial architecture and world-class human capital management.",
       "A Multidisciplinary Foundation: His leadership is backed by an elite academic and technical pedigree designed for operational excellence.",
-      "Strategic HR Leadership: Post Graduate Diploma in Human Resources from MIT Pune, focused on building scalable, high-performance organizational cultures.",
       "General Management Expertise: 7 years of deep-rooted experience navigating the entire Journal Publication lifecycle, specializing in operational efficiency and large-scale team leadership.",
       "Driving the Vision: He believes that a successful startup requires the same discipline he applied as a General Manager: a dual focus on fiscal integrity and empowered talent.",
       "By integrating his foundation with years of executive-level decision-making, he ensures the business remains lean, data-driven, and positioned for rapid growth.",
