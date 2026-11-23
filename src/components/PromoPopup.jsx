@@ -31,7 +31,7 @@ export default function PromoPopup() {
 
         {/* Flyer image */}
         <a
-          href="https://wa.me/918884833011"
+          href="https://wa.me/917558860115"
           target="_blank"
           rel="noopener noreferrer"
           className="promo-popup__link"
